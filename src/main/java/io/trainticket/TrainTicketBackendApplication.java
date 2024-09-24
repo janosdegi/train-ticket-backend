@@ -1,0 +1,13 @@
+package io.trainticket;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TrainTicketBackendApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TrainTicketBackendApplication.class, args);
+	}
+
+}
